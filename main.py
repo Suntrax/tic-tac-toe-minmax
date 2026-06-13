@@ -4,8 +4,7 @@ from tictactoe import TicTacToe
 if __name__ == "__main__":
     # difficulties
     # 1 = random moves
-    # 2 = short lookahead
-    # 3 = always draw
+    # 2 = minmax, always draw
 
     difficulty = 2
 

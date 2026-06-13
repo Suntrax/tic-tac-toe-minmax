@@ -113,8 +113,3 @@ class TicTacToe:
 
     def is_draw(self):
         return len(self.get_available_moves()) == 0 and self.get_winner() is None
-
-
-if __name__ == "__main__":
-    game = TicTacToe(2)
-    game.start()
